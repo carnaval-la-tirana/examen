@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>CARNAVAL LA TIRANA</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+            body {
+                background: #fff url("img/encabezado.svg") center top no-repeat;
+                background-size: auto 120vh;
+            }
+            header {
+                min-height: 120vh;
+            }
+            
+            h1{font-family: 'Merriweather', serif;
+            font-weight: 700;}
+            
+            h2{font-family: 'Merriweather', serif;
+            font-weight: 400;}
+            
+            h3{font-family: 'Roboto', sans-serif;
+            font-weight: 700;}
+            
+            h4{font-family: 'Roboto', sans-serif;
+            font-weight: 400;}
+            
+            .carousel-control-prev-icon {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+            }
+
+            .carousel-control-next-icon {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+            }
+            
+            #scrolling{
+                overflow-x: hidden;
+            }
+
+            .horizontal-scroll-wrapper {
+                position: relative;
+                display: block;
+                top: 0;
+                left: 0;
+                width: calc(250px + 1px);
+                height: 100vw;
+                margin: 0;
+                padding-top: 1px;
+                background: #abc;
+                overflow-y: auto;
+                overflow-x: hidden;
+                transform: rotate(-90deg) translateY(-250px);
+                transform-origin: right top;
+            }
+            .horizontal-scroll-wrapper > div {
+                display: block;
+                padding: 5px;
+                background: #cab;
+                transform: rotate(90deg);
+                transform-origin: right top;
+            }
+
+            .squares {
+                padding: 250px 0 0 0;
+            }
+            .squares > div {
+                width: 250px;
+                height: 250px;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="d-flex align-items-top">
+            <div class="container-fluid">
+                <div class="row my-auto">
+                    <div class="col-12 mx-auto pt-3 text-center">
+                        <h4 class="fs-6">Carnavales en Sudamérica</h4>
+                        <h1 class="display-4">LA TIRANA</h1>
+                        <h2 class="fs-3">Una carnaval en honor a la Virgen del Carmen</h2>
+                        <h3 class="fs-5">Tarapacá, Chile.</h3>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="my-5">
+            <section class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
+                        <h3 class="my-5 text-center">Dónde y cuándo</h3>
+                        <p>Cada año, en la segunda semana de julio, cobra vida en Chile la Fiesta de la Tirana. Son 7 días de celebraciones que comienzan el 10 u 11 de julio.</p>
+                    </div>
+
+                    <div class="col-sm-12 col-md-10 col-lg-8 mx-auto my-5">
+                            <div class="row align-items-center">
+        <div class="d-none d-md-inline col-md-3">
+            <object type="image/svg+xml" data="img/sudamerica.svg" class="w-100"></object>
+        </div>
+        <div class="col-md-6">
+            <object type="image/svg+xml" data="img/mapa.svg" class="w-100"></object>
+        </div>
+        <div class="p-3  col-md-3">
+            <p>Más de 250 peregrinos y lugareños se reúnen en la localidad de La Tirana, ubicada en la comuna de Pozo Almonte, región de Tarapacá, para celebrar a la patrona de Chile, la Virgen del Carmen.</p>
+        </div>
+    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
+                        <h3 class="my-5 text-center">PERSONAJES TRADICIONALES</h3>
+
+                        <!--impar-->
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <object type="image/svg+xml" data="img/personaje1.svg" class="w-100"></object>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-md-start">
+                                    <h4>PIEL ROJA</h4>
+                                    <p class="text-black-50">
+                                        Inspirados en los indios norteamericanos, los pieles rojas aparecen por primera vez en La Tirana en 1938. Anacleto Palza Pizarro es el creador de la vestimenta y bailes de estos personajes. Imitan los trajes emplumados, danzas y sonidos de los indios norteamericanos, pero sus cantos se dirigen a la Virgen del Carmen, y sus letras hablan de la geografía local.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--par-->
+                        <div class="row align-items-center">
+                            <div class="col-md-6 order-sm-2">
+                                <object type="image/svg+xml" data="img/personaje2.svg" class="w-100"></object>
+                            </div>
+                            <div class="col-md-6 order-sm-1">
+                                <div class="text-md-end">
+                                    <h4>CUYACA</h4>
+                                    <p class="text-black-50">
+                                        Significa hermana mayor en quechua. Son personajes femeninos basados en las danzas ceremoniales de las vírgenes del Sol del imperio Inca. Llevan vestidos verdes adornados, una faja de lana, cubierta con monedas y abalorios y collares largos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--impar-->
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <object type="image/svg+xml" data="img/personaje3.svg" class="w-100"></object>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-md-start">
+                                    <h4>PASTORA</h4>
+                                    <p class="text-black-50">
+                                        Visten el axso, túnica hecha con ponchitos de variados colores y aguayos adornados con cucharas de plata boliviana que prenden al pecho. Van cubiertas, con un phanta, adornado con lentejuelas. Llevan
+                                        un cinturón de Iana trenzada del que cuelgan una bolsa repleta de monedas antiguas. Bailan en círculo, con pasitos cortos y bornean unas guaracas simulando la faena de agrupar las ovejas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--par-->
+                        <div class="row align-items-center">
+                            <div class="col-md-6 order-sm-2">
+                                <object type="image/svg+xml" data="img/personaje4.svg" class="w-100"></object>
+                            </div>
+                            <div class="col-md-6 order-sm-1">
+                                <div class="text-md-end">
+                                    <h4>CHUNCHO</h4>
+                                    <p class="text-black-50">
+                                        Evocan a los indígenas de las zonas selváticas de los Andes, tanto en Perú como en Bolivia. Son guerreros danzantes. Su indumentaria incluye un turbante de plumas, chontas (especie de lanza) pelo suelto, camisa blanca, la banda que atraviesa el pecho, faldellín hasta las rodillas, calcetas blancas largas y zapatillas del mismo color.                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--impar-->
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <object type="image/svg+xml" data="img/personaje5.svg" class="w-100"></object>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-md-start">
+                                    <h4>GITANAS</h4>
+                                    <p class="text-black-50">
+                                        Los gitanos visten trajes convencionales, con vistosos pañuelos amarrados a la cabeza. Bailan en rueda. Avanzan y retroceden dando vueltas sobre ellos mismos, con rápidos movimientos. Las gitanas
+                                        acompañan los giros con toques de pandereta que llevan adornadas con profusión de cintas multicolores.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--par-->
+                        <div class="row align-items-center">
+                            <div class="col-md-6 order-sm-2">
+                                <object type="image/svg+xml" data="img/personaje6.svg" class="w-100"></object>
+                            </div>
+                            <div class="col-md-6 order-sm-1">
+                                <div class="text-md-end">
+                                    <h4>MÚSICO</h4>
+                                    <p class="text-black-50">
+                                        Los músicos van detrás del baile o a un lado. Al frente de cada columna va un guia, que abre el camino e inicia el canto.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--impar-->
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <object type="image/svg+xml" data="img/personaje7.svg" class="w-100"></object>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-md-start">
+                                    <h4>DIABLO</h4>
+                                    <p class="text-black-50">
+                                        Representa la capacidad de la Virgen de poder tener a los demonios bailando para ella. Es una figura que puede generar el mal o el bien, que llegó en los 60 desde Bolivia y que puede dirigir la Tirana
+                                        al son de las tradiciones andinas y cristianas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-fluid g-0" id="scrolling">
+                <div class="row g-0">
+                    <div class="mt-5 mb-3 col-12 mx-auto">
+                        <h3 class="my-5 text-center">Origen e Historia</h3>
+                        <div style="max-height: 250px; overlfow-y: hidden;">
+                            <div class="horizontal-scroll-wrapper squares">
+                                <div> <img src="img/SVG/Artboard 1.svg"></div>
+                                <div><img src="img/SVG/Artboard 10.svg"></div>
+                                <div><img src="img/SVG/Artboard 11.svg"></div>
+                                <div><img src="img/SVG/Artboard 12.svg"></div>
+                                <div><img src="img/SVG/Artboard 13.svg"></div>
+                                <div><img src="img/SVG/Artboard 14.svg"></div>
+                                <div><img src="img/SVG/Artboard 15.svg"></div>
+                                <div><img src="img/SVG/Artboard 16.svg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-fluid g-0">
+                <div class="row g-0">
+                    <div class="mt-5 mb-3 col-12 mx-auto">
+                        <h3 class="my-5 text-center">El carnaval</h3>
+                        <h4 class="my-5 text-center">Peregrinación</h4>
+                       <div class="col-sm-12 col-md-10 col-lg-8 mx-auto my-5">
+                            <div class="row align-items-center">
+        <div class="col-md-6">
+            <object type="image/svg+xml" data="img/peregrinacion.svg" class="w-100"></object>
+        </div>
+        <div class="p-3  col-md-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="d-none d-md-inline col-md-3">
+            <object type="image/svg+xml" data="img/calendarioper.svg" class="w-100"></object>
+        </div>
+                        <h4 class="my-5 text-center">Bailes y saludos a la virgen</h4>
+                        <svg class="w-100" viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                            <rect width="100%" height="100%" fill="#ccc" />
+                        </svg>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
+                        <h3 class="my-5 text-center">Bailes</h3>
+
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <video playsinline loop autoplay muted class="pt-4 w-100">
+                        <source src="video/chunchos.mp4" type="video/mp4" />
+                        <source src="video/chunchos.ogg" type="video/ogg" />
+                        <source src="video/chunchos.webm" type="video/webm" />
+                    </video>
+                                </div>
+                                <div class="carousel-item">
+                                    <video playsinline loop autoplay muted class="pt-4 w-100">
+                        <source src="video/morenos.mp4" type="video/mp4" />
+                        <source src="video/morenos.ogg" type="video/ogg" />
+                        <source src="video/morenos.webm" type="video/webm" />
+                    </video>
+                                </div>
+                                <div class="carousel-item">
+                                    <video playsinline loop autoplay muted class="pt-4 w-100">
+                        <source src="video/diablada.mp4" type="video/mp4" />
+                        <source src="video/diablada.ogg" type="video/ogg" />
+                        <source src="video/diablada.webm" type="video/webm" />
+                    </video>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container">
+                <div class="row">
+                    <div class="mt-5 mb-3 col-12 mx-auto">
+                        <h3 class="my-5 text-center">Recorrido de La Chinita</h3>
+                        <svg class="w-100" viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                            <rect width="100%" height="100%" fill="#ccc" />
+                        </svg>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-12">
+                        <p class="d-flex justify-content-between small p-1 m-0">
+                            <!--reemplaza el # que sigue con la URL de tu cuenta en GitHub-->
+                            <a href="https://github.com/carnaval-la-tirana" class="link-dark">Harambour, Herrera, López, Muñoz, Reinarz</a>
+                            <a href="https://github.com/profesorfaco/dno075-2022-1/" class="link-dark">Infografía Digital</a>
+                            <a href="https://github.com/profesorfaco/dno075-2022-1/tree/main/clase-14" class="d-none d-lg-inline link-dark">Lunes 6 de junio, 2022</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
