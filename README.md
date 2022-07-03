@@ -39,12 +39,10 @@ Llegó el ocaso de la explotación salitrera y las oficinas fueron cerradas paul
 
 PEREGRINACIÓN
 
-En los **primeros días** del carnaval, comienza la llegada de las compañías de baile y de los peregrinos que vienen a venerar a la Virgen del Carmen.
+Alrededor de **220 mil devotos** peregrinan cada año desde **Chile, Perú y Bolivia** para celebrar esta fiesta.
+Al llegar a La Tirana todas las hermandades religiosas de baile inician sus homenajes en El Calvario. Este se encuentra en el límite del pueblo, y frente a su Cristo, los grupos de bailarines realizan su primer ritual para entrar en lo sagrado y dejar lo profano fuera del pueblo. 
+Los peregrinos también entran en lo sagrado al saludar al Calvario.
 
-Al llegar a La Tirana todas las hermandades religiosas de baile inician sus homenajes en El Calvario. Este se encuentra en el límite del pueblo, y frente a su Cristo, los grupos de bailarines realizan su primer ritual para entrar en lo sagrado y dejar lo profano fuera del pueblo.
-Los peregrinos también entran en lo sagrado al saludar a la Ermita.
-
-Miles de personas peregrinan desde Chile, Perú y Bolivia para celebrar esta fiesta.
 
 BAILES Y SALUDOS A LA VIRGEN
 
