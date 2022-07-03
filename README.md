@@ -48,8 +48,13 @@ Miles de personas peregrinan desde Chile, Perú y Bolivia para celebrar esta fie
 
 BAILES Y SALUDOS A LA VIRGEN
 
-- El **12 de julio comienzan los bailes y los saludos a la virgen**. Los bailarines recorren el pueblo camino a la iglesia de La Tirana para saludar a la virgen. Debido a la cantidad de compañías y personas que llegan al pueblo, estos bailes **se extienden hasta el día 16**.
-- **En el día 15** se llega al momento más alto de esta fiesta religiosa. En este día se realiza la **vigilia**, donde los grupos de bailarines hacen fogatas y lanzan fuegos artificiales, esperando la **medianoche**.
+El **12 de julio comienzan los bailes y los saludos a la virgen**. Los bailarines recorren el pueblo camino a la iglesia de La Tirana para saludar a la virgen. Debido a la cantidad de compañías y personas que llegan al pueblo, estos bailes **se extienden hasta el día 16**.
+
+Cada compañía presenta su propia imágen de la Virgen, vestida y adornada, que llevan a la iglesia para que sea bendecida. El Niño Dios va muchas veces vestido con el traje de la compañía.
+
+LA VIGILIA
+
+**En el día 15** se llega al momento más alto de esta fiesta religiosa. En este día se realiza la **vigilia**, donde los grupos de bailarines hacen fogatas y lanzan fuegos artificiales, esperando la **medianoche**. Sobresalen los Pieles Rojas, que no contentos con bailar al rededor de las fogatas, saltan sobre las llamas.
 
 EL RECORRIDO DE LA CHINITA
 
