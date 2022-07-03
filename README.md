@@ -39,11 +39,12 @@ Llegó el ocaso de la explotación salitrera y las oficinas fueron cerradas paul
 
 PEREGRINACIÓN
 
+En los **primeros días** del carnaval, comienza la llegada de las compañías de baile y de los peregrinos que vienen a venerar a la Virgen del Carmen.
+
 Al llegar a La Tirana todas las hermandades religiosas de baile inician sus homenajes en El Calvario. Este se encuentra en el límite del pueblo, y frente a su Cristo, los grupos de bailarines realizan su primer ritual para entrar en lo sagrado y dejar lo profano fuera del pueblo.
 Los peregrinos también entran en lo sagrado al saludar a la Ermita.
 
-Miles de personas peregrinan desde Chile, Perú y Bolivia para celebrar esta fiesta. Por lo general, ocurre de la siguiente manera:
-- En los **primeros días** del carnaval, comienza la llegada de las compañías de baile y de los peregrinos que vienen a venerar a la Virgen del Carmen.
+Miles de personas peregrinan desde Chile, Perú y Bolivia para celebrar esta fiesta.
 
 BAILES Y SALUDOS A LA VIRGEN
 
@@ -52,9 +53,10 @@ BAILES Y SALUDOS A LA VIRGEN
 
 EL RECORRIDO DE LA CHINITA
 
-- El **cuarto día de celebración (16 de julio)**, es el más importante de esta fiesta, porque la **virgen sale a recorrer** las empolvadas calles de La Tirana. Finalizado el recorrido, la **«Chinita»**, como le llaman a la virgen, vuelve a la capilla y comienza el lento retorno de los feligreses y compañías de baile a sus lugares de origen.
+El **cuarto día de celebración (16 de julio)**, es el más importante de esta fiesta, porque la **virgen sale a recorrer** las empolvadas calles de La Tirana.
 En la mañana, con un ritual muy antiguo, se procede a bajar la imagen de la Virgen de La Tirana. La visten con un manto nuevo, le ponen su corona y la adornan con innumerables cintas de colores que cuelgan por todo su ruedo.
 En la tarde, la Virgen sale a recorrer el pueblo seguida de todos sus fieles. Una procesión que siguen sus devotos cantando con emoción.
+Finalizado el recorrido, la **«Chinita»**, como le llaman a la virgen, vuelve a la capilla y comienza el lento retorno de los feligreses y compañías de baile a sus lugares de origen.
 
 ### PERSONAJES TRADICIONALES
 
