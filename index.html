@@ -12,6 +12,7 @@
             body {
                 background: #fff url("img/encabezado1.svg") center top no-repeat;
                 background-size: auto 120vh;
+                padding-top: -8rem;
             }
             header {
                 min-height: 120vh;
@@ -28,6 +29,10 @@
             
             h4{font-family: 'Roboto', sans-serif;
             font-weight: 400;}
+
+            footer {
+                background-color: #fff;
+            }
             
             .carousel-control-prev-icon {
                 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
@@ -39,27 +44,54 @@
             
             #scrolling{
                 overflow-x: hidden;
-                transform-origin: left top;
             }
 
-            .scroll-container{
-            text-align: center;
-            overflow: auto;
-            white-space: nowrap;
-            /*padding: 5px 70px 5px 20px;*/
-            background: transparent;
-            height: 100%;
-            /*border-radius:15px;*/
-            overflow-y: hidden;
-                }
-
-            .gridscroll{
-              display:inline-block;
+            .horizontal-scroll-wrapper {
+                position: relative;
+                display: block;
+                top: 0;
+                left: 0;
+                width: calc(250px + 1px);
+                height: 100vw;
+                margin: 0;
+                padding-top: 1px;
+                background: #C8B7ED;
+                overflow-y: auto;
+                overflow-x: hidden;
+                transform: rotate(-90deg) translateY(-250px);
+                transform-origin: right top;
+            }
+            .horizontal-scroll-wrapper > div {
+                display: block;
+                padding: 5px;
+                background: #C8B7ED;
+                transform: rotate(90deg);
+                transform-origin: right top;
             }
 
-            .gridscroll img {
-              margin-right:-12px;
+            .squares {
+                padding: 250px 0 0 0;
             }
+            .squares > div {
+                width: 250px;
+                height: 250px;
+            }
+            .naranjo{
+                background-color: #F7A430;
+            }
+            .amarillo{
+                background-color: #FACF33;
+            }
+            .cafe{
+                background-color: #796A41;
+            }
+            .celeste{
+                background-color: #5AB9E5;
+            }
+            .otro{
+                background-color: #C8B7ED;
+            }
+
         </style>
     </head>
     <body>
@@ -77,6 +109,7 @@
         </header>
 
         <main class="my-5">
+            <div class="celeste">
             <section class="container">
                 <div class="row">
                     <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
@@ -96,7 +129,10 @@
     </div>
                     </div>
                 </div>
-            </section>
+            </section >
+        </div>
+
+        <div class="celeste">
             <section class="container">
                 <div class="row">
                     <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
@@ -205,58 +241,10 @@
                     </div>
                 </div>
             </section>
-
-            <section class="container-fluid g-0" id="scrolling">
-                <div class="row g-0">
-                    <h3 class="my-5 text-center">Origen e Historia</h3>
-                    <div class="mt-5 mb-3 col-12 mx-auto">
-                        
-                        <div class="scroll-container" >
-              <div style="max-height: 400px; overlfow-y: hidden;">
-              <div class="gridscroll">
-                <!-- CAMBIAR IMAGENES -->
-                  <img src="https://1.bp.blogspot.com/-0CHslVh6sdg/XonIM4AI0TI/AAAAAAAAAOk/QTp_TSizzAoKIJCX2GKdcY6UAqeqzl_wQCLcBGAsYHQ/s1600/Screenshot_20200405-195007.jpg"/>
-                  <img src="https://1.bp.blogspot.com/-AGsW3A6jUBY/XonIM6YVbPI/AAAAAAAAAOg/WfQDWXKKwlASyCiZrS1lWaUDvl6Ro6W8wCLcBGAsYHQ/s1600/Screenshot_20200405-195002.jpg"/>
-                  <img src="https://1.bp.blogspot.com/-sRlzKW5wCEA/XonIPBM3GhI/AAAAAAAAAOo/1SodAhMlnZUv5b701JjMXmPvhPyxryFxwCLcBGAsYHQ/s1600/Screenshot_20200405-195022.jpg"/>
-                  <img src="https://1.bp.blogspot.com/-0CHslVh6sdg/XonIM4AI0TI/AAAAAAAAAOk/QTp_TSizzAoKIJCX2GKdcY6UAqeqzl_wQCLcBGAsYHQ/s1600/Screenshot_20200405-195007.jpg"/>
-                  <img src="https://1.bp.blogspot.com/-AGsW3A6jUBY/XonIM6YVbPI/AAAAAAAAAOg/WfQDWXKKwlASyCiZrS1lWaUDvl6Ro6W8wCLcBGAsYHQ/s1600/Screenshot_20200405-195002.jpg"/>
-                  <img src="https://1.bp.blogspot.com/-sRlzKW5wCEA/XonIPBM3GhI/AAAAAAAAAOo/1SodAhMlnZUv5b701JjMXmPvhPyxryFxwCLcBGAsYHQ/s1600/Screenshot_20200405-195022.jpg"/>
-              </div>
             </div>
-            </div>
-            </section>
 
-            <section class="container-fluid g-0">
-                <div class="row g-0">
-                    <div class="mt-5 mb-3 col-12 mx-auto">
-                        <h3 class="my-5 text-center">El carnaval</h3>
-                        <h4 class="my-5 text-center">Peregrinación</h4>
-                       <div class="col-sm-12 col-md-10 col-lg-8 mx-auto my-5">
-                            <div class="row align-items-center">
-        <div class="col-md-6">
-            <object type="image/svg+xml" data="img/peregrinacion.svg" class="w-100"></object>
-        </div>
-        <div class="p-3  col-md-3">
-            <p>
-            Alrededor de 220 mil devotos peregrinan cada año desde Chile, Perú y Bolivia para celebrar esta fiesta.
-            Al llegar a La Tirana todas las hermandades religiosas de baile inician sus homenajes en El Calvario. Este se encuentra en el límite del pueblo, y frente a su Cristo, los grupos de bailarines realizan su primer ritual para entrar en lo sagrado y dejar lo profano fuera del pueblo. 
-            Los peregrinos también entran en lo sagrado al saludar al Calvario.
-            </p>
-        </div>
-        <div class="d-none d-md-inline col-md-3">
-            <object type="image/svg+xml" data="img/calendariopere.svg" class="w-100"></object>
-        </div>
-                        <h4 class="my-5 text-center">Bailes y saludos a la virgen</h4>
-                        <div class="col-md-8">
-                                <object type="image/svg+xml" data="img/saludovirgen.svg" class="w-100"></object>
-                            </div>
-        <div class="d-none d-md-inline col-md-3">
-            <object type="image/svg+xml" data="img/calendariobaile.svg" class="w-100"></object>
-        </div>
-                </div>
-            </section>
-
-            <section class="container">
+            <div class="celeste"  style="padding-bottom: 3rem;">                        
+                <section class="container">
                 <div class="row">
                     <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
                         <h3 class="my-5 text-center">Bailes</h3>
@@ -302,7 +290,64 @@
                     </div>
                 </div>
             </section>
+            </div>
 
+            <div class="otro" style="padding-top: -3rem;">
+            <section class="container-fluid g-0" id="scrolling">
+                <div class="row g-0">
+                    <div class="mt-5 mb-3 col-12 mx-auto">
+                        <h3 class="my-5 text-center">Origen e Historia</h3>
+                        <div style="max-height: 250px; overlfow-y: hidden;">
+                            <div class="horizontal-scroll-wrapper squares">
+                                <div> <img src="img/SVG/Artboard 1.svg"></div>
+                                <div><img src="img/SVG/Artboard 10.svg"></div>
+                                <div><img src="img/SVG/Artboard 11.svg"></div>
+                                <div><img src="img/SVG/Artboard 12.svg"></div>
+                                <div><img src="img/SVG/Artboard 13.svg"></div>
+                                <div><img src="img/SVG/Artboard 14.svg"></div>
+                                <div><img src="img/SVG/Artboard 15.svg"></div>
+                                <div><img src="img/SVG/Artboard 16.svg"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+
+            <div class="otro">
+            <section class="container-fluid g-0">
+                <div class="row g-0">
+                    <div class="mt-5 mb-3 col-12 mx-auto">
+                        <h3 class="my-5 text-center">El carnaval</h3>
+                        <h4 class="my-5 text-center">Peregrinación</h4>
+                       <div class="col-sm-12 col-md-10 col-lg-8 mx-auto my-5">
+                            <div class="row align-items-center">
+        <div class="col-md-6">
+            <object type="image/svg+xml" data="img/peregrinacion.svg" class="w-100"></object>
+        </div>
+        <div class="p-3  col-md-3">
+            <p>
+            Alrededor de 220 mil devotos peregrinan cada año desde Chile, Perú y Bolivia para celebrar esta fiesta.
+            Al llegar a La Tirana todas las hermandades religiosas de baile inician sus homenajes en El Calvario. Este se encuentra en el límite del pueblo, y frente a su Cristo, los grupos de bailarines realizan su primer ritual para entrar en lo sagrado y dejar lo profano fuera del pueblo. 
+            Los peregrinos también entran en lo sagrado al saludar al Calvario.
+            </p>
+        </div>
+        <div class="d-none d-md-inline col-md-3">
+            <object type="image/svg+xml" data="img/calendariopere.svg" class="w-100"></object>
+        </div>
+                        <h4 class="my-5 text-center">Bailes y saludos a la virgen</h4>
+                        <div class="col-md-8">
+                                <object type="image/svg+xml" data="img/saludovirgen.svg" class="w-100"></object>
+                            </div>
+        <div class="d-none d-md-inline col-md-3">
+            <object type="image/svg+xml" data="img/calendariobaile.svg" class="w-100"></object>
+        </div>
+                </div>
+            </section>
+            </div>
+
+            <div class="otro">
             <section class="container">
                 <div class="row">
                     <div class="mt-5 mb-3 col-12 mx-auto">
@@ -321,6 +366,7 @@
                     </div>
                 </div>
             </section>
+            </div>
         </main>
 
         <footer>
