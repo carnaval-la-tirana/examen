@@ -39,37 +39,26 @@
             
             #scrolling{
                 overflow-x: hidden;
+                transform-origin: left top;
             }
 
-            .horizontal-scroll-wrapper {
-                position: relative;
-                display: block;
-                top: 0;
-                left: 0;
-                width: calc(250px + 1px);
-                height: 100vw;
-                margin: 0;
-                padding-top: 1px;
-                background: #abc;
-                overflow-y: auto;
-                overflow-x: hidden;
-                transform: rotate(-90deg) translateY(-250px);
-                transform-origin: right top;
-            }
-            .horizontal-scroll-wrapper > div {
-                display: block;
-                padding: 5px;
-                background: #cab;
-                transform: rotate(90deg);
-                transform-origin: right top;
+            .scroll-container{
+            text-align: center;
+            overflow: auto;
+            white-space: nowrap;
+            /*padding: 5px 70px 5px 20px;*/
+            background: transparent;
+            height: 100%;
+            /*border-radius:15px;*/
+            overflow-y: hidden;
+                }
+
+            .gridscroll{
+              display:inline-block;
             }
 
-            .squares {
-                padding: 250px 0 0 0;
-            }
-            .squares > div {
-                width: 250px;
-                height: 250px;
+            .gridscroll img {
+              margin-right:-12px;
             }
         </style>
     </head>
@@ -219,22 +208,22 @@
 
             <section class="container-fluid g-0" id="scrolling">
                 <div class="row g-0">
+                    <h3 class="my-5 text-center">Origen e Historia</h3>
                     <div class="mt-5 mb-3 col-12 mx-auto">
-                        <h3 class="my-5 text-center">Origen e Historia</h3>
-                        <div style="max-height: 250px; overlfow-y: hidden;">
-                            <div class="horizontal-scroll-wrapper squares">
-                                <div> <img src="img/SVG/Artboard 1.svg"></div>
-                                <div><img src="img/SVG/Artboard 10.svg"></div>
-                                <div><img src="img/SVG/Artboard 11.svg"></div>
-                                <div><img src="img/SVG/Artboard 12.svg"></div>
-                                <div><img src="img/SVG/Artboard 13.svg"></div>
-                                <div><img src="img/SVG/Artboard 14.svg"></div>
-                                <div><img src="img/SVG/Artboard 15.svg"></div>
-                                <div><img src="img/SVG/Artboard 16.svg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                        
+                        <div class="scroll-container" >
+              <div style="max-height: 400px; overlfow-y: hidden;">
+              <div class="gridscroll">
+                <!-- CAMBIAR IMAGENES -->
+                  <img src="https://1.bp.blogspot.com/-0CHslVh6sdg/XonIM4AI0TI/AAAAAAAAAOk/QTp_TSizzAoKIJCX2GKdcY6UAqeqzl_wQCLcBGAsYHQ/s1600/Screenshot_20200405-195007.jpg"/>
+                  <img src="https://1.bp.blogspot.com/-AGsW3A6jUBY/XonIM6YVbPI/AAAAAAAAAOg/WfQDWXKKwlASyCiZrS1lWaUDvl6Ro6W8wCLcBGAsYHQ/s1600/Screenshot_20200405-195002.jpg"/>
+                  <img src="https://1.bp.blogspot.com/-sRlzKW5wCEA/XonIPBM3GhI/AAAAAAAAAOo/1SodAhMlnZUv5b701JjMXmPvhPyxryFxwCLcBGAsYHQ/s1600/Screenshot_20200405-195022.jpg"/>
+                  <img src="https://1.bp.blogspot.com/-0CHslVh6sdg/XonIM4AI0TI/AAAAAAAAAOk/QTp_TSizzAoKIJCX2GKdcY6UAqeqzl_wQCLcBGAsYHQ/s1600/Screenshot_20200405-195007.jpg"/>
+                  <img src="https://1.bp.blogspot.com/-AGsW3A6jUBY/XonIM6YVbPI/AAAAAAAAAOg/WfQDWXKKwlASyCiZrS1lWaUDvl6Ro6W8wCLcBGAsYHQ/s1600/Screenshot_20200405-195002.jpg"/>
+                  <img src="https://1.bp.blogspot.com/-sRlzKW5wCEA/XonIPBM3GhI/AAAAAAAAAOo/1SodAhMlnZUv5b701JjMXmPvhPyxryFxwCLcBGAsYHQ/s1600/Screenshot_20200405-195022.jpg"/>
+              </div>
+            </div>
+            </div>
             </section>
 
             <section class="container-fluid g-0">
