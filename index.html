@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <style>
             body {
-                background: #B20E02 url("img/encabezado1.svg") center top no-repeat;
+                background: #FFD550 url("img/encabezado1.svg") center top no-repeat;
                 background-size: auto 120vh;
                 padding-top: -5rem;
             }
@@ -31,7 +31,7 @@
             font-weight: 400;}
 
             footer {
-                background-color: #fff;
+                background-color: #FFD550;
             }
             
             .carousel-control-prev-icon {
@@ -44,39 +44,47 @@
             
             #scrolling{
                 overflow-x: hidden;
+
+            }
+            .hideScroll {
+              overflow: auto;
+              height: 100px;
+              scroll-width: none;
             }
 
+            
+            .hideScroll::-webkit-scrollbar {
+              width: 0;
+            }
             .horizontal-scroll-wrapper {
                 position: relative;
                 display: block;
                 top: 0;
                 left: 0;
-                width: calc(250px + 1px);
+                width: calc(400px + 1px);
                 height: 100vw;
                 margin: 0;
-                padding-top: 1px;
-                background: #C8B7ED;
-                overflow-y: auto;
+                background: #71B9CC;
                 overflow-x: hidden;
-                transform: rotate(-90deg) translateY(-250px);
+                transform: rotate(-90deg) translateY(-400px);
                 transform-origin: right top;
             }
             .horizontal-scroll-wrapper > div {
                 display: block;
-                padding: 5px;
-                background: #C8B7ED;
+                overflow-y: auto;
+                background: #71B9CC;
                 transform: rotate(90deg);
                 transform-origin: right top;
             }
 
             .squares {
-                padding: 250px 0 0 0;
+                padding: 400px 0 0 0;
             }
             .squares > div {
-                width: 250px;
-                height: 250px;
+                width: 400px;
+                height: 400px;
             }
-            /*
+            
             .naranjo{
                 background-color: #F7A430;
             }
@@ -87,12 +95,12 @@
                 background-color: #796A41;
             }
            .celeste{
-                background-color: #5AB9E5;
+                background-color: #F9AE5D;
             }
             .otro{
-                background-color: #C8B7ED;
+                background-color: #71B9CC;
             }
-            */
+            /*
             .naranjo{
                 background-color: #F29220;
             }
@@ -108,13 +116,11 @@
             .otro{
                 background-color: #A993E5;
             }
-
-            .bg-image-full {
-              background-repeat: no-repeat;
-              background-attachment: scroll;
-              background-position: center;
-              background-size: 80%;
+            .rojo{
+                background-color: #B20E02;
             }
+*/
+           
 
         </style>
     </head>
@@ -133,11 +139,17 @@
         </header>
 
         <main class="my-5">
+                            <div class="rojo">
+                    <div class="row">
+                <div class="col-4 mx-auto celeste" style="padding-top: 1rem;">
+                        <h3 class="text-center">DÓNDE Y CUÁNDO</h3>
+                    </div>
+                </div>
+            </div>
             <div class="celeste">
             <section class="container">
                 <div class="row">
-                    <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
-                        <h3 class="my-5 text-center">DÓNDE Y CUANDO</h3>
+                    <div class="col-sm-10 col-md-8 col-lg-6 mx-auto" style="padding-top: 3rem;">
                         <p>Cada año, en la segunda semana de julio, cobra vida en Chile la Fiesta de la Tirana. Son 7 días de celebraciones que comienzan el 10 u 11 de julio.</p>
                     </div>
 
@@ -267,13 +279,13 @@
             </section>
             </div>
 
-            <div class="celeste"  style="padding-bottom: 3rem;">                        
+            <div class="celeste">                        
                 <section class="container">
                 <div class="row">
                     <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
                         <h3 class="my-5 text-center">BAILES</h3>
 
-                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="padding-bottom:3rem;">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -313,25 +325,29 @@
                         </div>
                     </div>
                 </div>
+                <div class="container">
+                    <div class="row">
+                <div class="col-4 mx-auto otro" style="padding-top: 1rem;">
+                        <h3 class="text-center">ORIGEN E HISTORIA</h3>
+                    </div>
+                  
             </section>
-            </div>
+                    
+</div>
 
-            <div class="otro" style="padding-top: -3rem;">
+            <div class="otro" style="padding-top: 1rem;">
             <section class="container-fluid g-0" id="scrolling">
                 <div class="row g-0">
                     <div class="mt-5 mb-3 col-12 mx-auto">
-                        <h3 class="my-5 text-center">ORIGEN E HISTORIA</h3>
-                        <div style="max-height: 250px; overlfow-y: hidden;">
-                            <div class="horizontal-scroll-wrapper squares">
-                                <div> <img src="img/SVG/Artboard 1.svg"></div>
-                                <div><img src="img/SVG/Artboard 10.svg"></div>
-                                <div><img src="img/SVG/Artboard 11.svg"></div>
-                                <div><img src="img/SVG/Artboard 12.svg"></div>
-                                <div><img src="img/SVG/Artboard 13.svg"></div>
-                                <div><img src="img/SVG/Artboard 14.svg"></div>
-                                <div><img src="img/SVG/Artboard 15.svg"></div>
-                                <div><img src="img/SVG/Artboard 16.svg"></div>
+                        <div  style="max-height: 400px;">
 
+                            <div class="horizontal-scroll-wrapper squares hideScroll">
+                                <div> <img src="img/SVG/1.svg"></div>
+                                <div><img src="img/SVG/2.svg"></div>
+                                <div><img src="img/SVG/3.svg"></div>
+                                <div><img src="img/SVG/4.svg"></div>
+                                <div><img src="img/SVG/5.svg"></div>
+                                <div><img src="img/SVG/6.svg"></div>
                             </div>
                         </div>
                     </div>
@@ -382,7 +398,26 @@
         </section>
             </div>
 
-
+        <div class="otro">
+        <section class="container-fluid">
+            <div class="row">
+        <h4 class="my-5 text-center">VIGILIA</h4>
+                               <div class="col-sm-12 col-md-10 col-lg-8 mx-auto my-5">
+                                    <div class="row align-items-center">
+                <div class="col-md-4">
+                    <object type="image/svg+xml" data="img/vigilia.svg" class="w-100"></object>
+                </div>
+                <div class="p-3  col-md-4">
+                    <p>
+                    En el día 15 se llega al momento más alto de esta fiesta religiosa. En este día se realiza la vigilia, donde los grupos de bailarines hacen fogatas y lanzan fuegos artificiales, esperando la medianoche. Sobresalen los Pieles Rojas, que no contentos con bailar al rededor de las fogatas, saltan sobre las llamas.
+                    </p>
+                </div>
+                <div class="d-none d-md-inline col-md-4">
+                    <object type="image/svg+xml" data="img/calendariovig.svg" class="w-100"></object>
+                </div>
+                </div>
+        </section>
+        </div>
 
             <div class="otro">
             <section class="container-fluid">
@@ -398,35 +433,12 @@
             <p>El 16 de julio, es el más importante de esta fiesta, porque la Virgen sale a recorrer las calles de La Tirana. En la mañana, con un ritual muy antiguo, se procede a bajar la imagen de la Virgen de La Tirana. La visten con un manto nuevo, le ponen su corona y la adornan con cintas de colores que cuelgan por todo su ruedo. En la tarde, la Virgen sale a recorrer el pueblo seguida de todos sus fieles. Una procesión que siguen sus devotos cantando con emoción. Finalizado el recorrido, la «Chinita», como le llaman a la Virgen, vuelve a la capilla y comienza el lento retorno de los feligreses y compañías de baile a sus lugares de origen.</p>
         </div>
         <div class="col-md-3">
-            <object type="image/svg+xml" data="img/virgen.svg" class="w-100"></object>
+            <object type="image/svg+xml" data="img/virgenn.svg" class="w-100"></object>
         </div>
                     </div>
                 </div>
             </section>
             </div>
-
-<div class="otro">
-<section class="container-fluid">
-    <div class="row">
-<h4 class="my-5 text-center">VIGILIA</h4>
-                       <div class="col-sm-12 col-md-10 col-lg-8 mx-auto my-5">
-                            <div class="row align-items-center">
-        <div class="col-md-4">
-            <object type="image/svg+xml" data="img/vigilia.svg" class="w-100"></object>
-        </div>
-        <div class="p-3  col-md-4">
-            <p>
-            En el día 15 se llega al momento más alto de esta fiesta religiosa. En este día se realiza la vigilia, donde los grupos de bailarines hacen fogatas y lanzan fuegos artificiales, esperando la medianoche. Sobresalen los Pieles Rojas, que no contentos con bailar al rededor de las fogatas, saltan sobre las llamas.
-            </p>
-        </div>
-        <div class="d-none d-md-inline col-md-4">
-            <object type="image/svg+xml" data="img/calendariovig.svg" class="w-100"></object>
-        </div>
-        </div>
-</section>
-</div>
-
-
 
         </main>
 
