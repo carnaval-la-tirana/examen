@@ -85,17 +85,18 @@ En la Tirana se manifiestan una gran cantidad de bailes, tanto tradicionales com
 
 Los primeros corresponden a bailes antiguos pasados de generación en generación desde tiempos inmemoriales, mientras que los segundos son resultado del "capricho novedoso de algún grupo entusiasta que organiza un baile para asombrar al público" (Uribe, 1976, p.20).
 
-**Chunchos:** Baile mixto de origen boliviano, los bailarines describen círculos, con pasos y saltos largos. Éstos llevan una lanza de madera en la mano denominada «chonta» conectada a un cable tenso que permite percutir con la madera generando un sonido suave característico.
+**CHUNCHOS**
 
-**Kullacas:** Se remonta a las danzas ceremoniales de las Vírgenes del Sol del Imperio inca. Este baile femenino consta de diversas mujeres que giran en torno a una gran vara. Cada bailarina lleva una cinta de color unida al extremo superior de la vara, por lo que a lo largo de la danza, las distintas cintas se trenzan en el poste, para seguir luego desenredándola y así terminando la danza.
+Es un baile tradicional de saltos y gran aparato coreográfico. Dan largos saltos acrobáticos al tiempo que blanden un arco chonta. Al final de una carrera, dan saltos y hacen sonar los arcos como disparos de fusil.
 
-**Pastoras:**
+**MORENOS**
 
-**Morenos:** Esta danza muy caracteristica de las fiestas religiosas del Norte de Chile representa a los esclavos de los pueblos originarios del Norte de Chile (propiamente mineros) los cuales eran forzados a trabajar para los colonos.
+Los Morenos llevan a cabo un baile de paso. Es un baile de pasito corto, que realizan en parejas frente a la imagen de la Virgen. Van acompañados de matracas y una banda de tambores y flautines.
 
-**Llameros:**
+**DIABLADA**
 
-**Diablos:** Se inspiran en la diablada altiplánica boliviana que llega a la fiesta el segundo tercio del s. XX. Se basa principalmente en filas de cholas (mujeres) y diablos ( hombres) quienes frente a la imagen de la Virgen van danzando intrincadas coreografías que representan la lucha del bien y el mal. 
+Los diablos o figurines son bailarines que acompañan a cualquier compañía. A veces se reúnen también de a cuatro o cinco y bailan juntos. Se disfrazan de diablo las personas que han cometido un grave pecado o recibido un favor extraordinario de la Virgen.
+
 
 **Callahuasis:**
 
@@ -122,3 +123,19 @@ https://identidadyfuturo.cl/2012/07/10/historia-y-bailes-de-la-fiesta-de-la-tira
 
 Fiol, C. (2018). *Al ritmo de diablos, tobas y cuyacas: Los personajes que dan vida a la devota fiesta de La Tirana.* El mercurio.
 https://www.emol.com/noticias/Nacional/2018/07/14/913292/Al-ritmo-de-diablos-tobas-y-cuyacas-Los-personajes-que-dan-vida-a-la-devota-fiesta-de-La-Tirana.html
+
+https://identidadyfuturo.cl/2012/07/10/historia-y-bailes-de-la-fiesta-de-la-tirana/ (personajes y bailes)
+
+https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-10432018000100203 (Pieles Rojas)
+https://www.redalyc.org/journal/339/33964324002/html/ (Chunchos)
+
+https://es.wikipedia.org/wiki/Cuyacas (Cuyacas)
+
+http://www.memoriachilena.gob.cl/602/w3-article-92445.html#:~:text=La%20diablada%20es%20una%20danza,la%20Fiesta%20de%20la%20Tirana. (Diablos)
+
+https://es.wikisource.org/wiki/Enciclopedia_Chilena/Folclore/Pastoras,_Baile_de (pastoras)
+
+https://www.redalyc.org/journal/279/27965287009/html/ (Músicos)
+
+http://www.iglesia.cl/especiales/virgendelcarmen/tirana.html (El Carnaval)
+
