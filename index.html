@@ -61,12 +61,12 @@
                 display: block;
                 top: 0;
                 left: 0;
-                width: calc(400px + 1px);
+                width: calc(600px + 1px);
                 height: 100vw;
                 margin: 0;
                 background: #71B9CC;
                 overflow-x: hidden;
-                transform: rotate(-90deg) translateY(-400px);
+                transform: rotate(-90deg) translateY(-600px);
                 transform-origin: right top;
             }
             .horizontal-scroll-wrapper > div {
@@ -78,11 +78,11 @@
             }
 
             .squares {
-                padding: 400px 0 0 0;
+                padding: 600px 0 0 0;
             }
             .squares > div {
-                width: 400px;
-                height: 400px;
+                width: 600px;
+                height: 600px;
             }
             
             .naranjo{
@@ -131,7 +131,7 @@
                     <div class="col-md-3 mx-auto pt-3 text-center">
                         <h4 class="fs-6">Carnavales en Sudamérica</h4>
                         <h1 class="display-4">LA TIRANA</h1>
-                        <h2 class="fs-3">Una carnaval en honor a la Virgen del Carmen</h2>
+                        <h2 class="fs-3">Un carnaval en honor a la Virgen del Carmen</h2>
                         <h3 class="fs-5">Tarapacá, Chile.</h3>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
             <section class="container">
                 <div class="row">
                     <div class="col-sm-10 col-md-8 col-lg-6 mx-auto" style="padding-top: 3rem;">
-                        <p>Cada año, en la segunda semana de julio, cobra vida en Chile la Fiesta de la Tirana. Son 7 días de celebraciones que comienzan el 10 u 11 de julio.</p>
+                        <h4>Cada año, en la segunda semana de julio, cobra vida en Chile la Fiesta de la Tirana. Son 7 días de celebraciones que comienzan el 10 u 11 de julio.</h4>
                     </div>
 
                     <div class="col-sm-12 col-md-10 col-lg-8 mx-auto my-5">
@@ -339,15 +339,18 @@
             <section class="container-fluid g-0" id="scrolling">
                 <div class="row g-0">
                     <div class="mt-5 mb-3 col-12 mx-auto">
-                        <div  style="max-height: 400px;">
+                        <div  style="max-height: 600px;">
 
                             <div class="horizontal-scroll-wrapper squares hideScroll">
+                                <div> <img src="img/SVG/8.svg"></div>
+                                <div><img src="img/SVG/8.svg"></div>
                                 <div> <img src="img/SVG/1.svg"></div>
                                 <div><img src="img/SVG/2.svg"></div>
                                 <div><img src="img/SVG/3.svg"></div>
                                 <div><img src="img/SVG/4.svg"></div>
                                 <div><img src="img/SVG/5.svg"></div>
                                 <div><img src="img/SVG/6.svg"></div>
+                                <div><img src="img/SVG/7.svg"></div>
                             </div>
                         </div>
                     </div>
@@ -363,10 +366,11 @@
                         <h4 class="my-5 text-center">PEREGRINACIÓN</h4>
                        <div class="col-sm-12 col-md-10 col-lg-8 mx-auto my-5">
                             <div class="row align-items-center">
-        <div class="col-md-4">
+        <div class="d-none d-md-inline col-md-4">
             <object type="image/svg+xml" data="img/peregrinacion.svg" class="w-100"></object>
+
         </div>
-        <div class="p-3  col-md-4">
+        <div class="p-3 col-md-4">
             <p>
             Alrededor de 220 mil devotos peregrinan cada año desde Chile, Perú y Bolivia para celebrar esta fiesta.
             Al llegar a La Tirana todas las hermandades religiosas de baile inician sus homenajes en El Calvario. Este se encuentra en el límite del pueblo, y frente a su Cristo, los grupos de bailarines realizan su primer ritual para entrar en lo sagrado y dejar lo profano fuera del pueblo. 
@@ -375,6 +379,9 @@
         </div>
         <div class="d-none d-md-inline col-md-4">
             <object type="image/svg+xml" data="img/calendariopere.svg" class="w-100"></object>
+        </div>
+                <div class="col-md-4">
+            <object class="d-md-none w-100 bg-image-full" type="image/svg+xml" data="img/peregrinacion.svg"></object>
         </div>
 
         </section>
@@ -385,15 +392,18 @@
                        <div class="col-sm-12 col-md-10 col-lg-8 mx-auto my-5">
                             <div class="row align-items-center">
         
-        <div class="p-3  col-md-6">
+        <div class="p-3  col-md-4">
             <p>
             El 12 de julio comienzan los bailes donde los mismos bailarines recorren el pueblo camino a la iglesia de La Tirana para saludar a la virgen.
             Debido a la cantidad de compañías que llegan, estos bailes se extienden hasta el día 16. Cada compañía presenta su propia imagen de la Virgen, que llevan a la iglesia para que sea bendecida. El Niño Dios va muchas veces vestido con el traje de la compañía.
             </p>
         </div>
-        <div class="d-none d-md-inline col-md-6">
+        <div class="col-md-4">
             <object type="image/svg+xml" data="img/iglesia-bys.svg" class="w-100"></object>
         </div>
+                        <div class="d-none d-md-inline col-md-4">
+                    <object type="image/svg+xml" data="img/calendariobaile.svg" class="w-100"></object>
+                </div>
 
         </section>
             </div>
@@ -404,7 +414,7 @@
         <h4 class="my-5 text-center">VIGILIA</h4>
                                <div class="col-sm-12 col-md-10 col-lg-8 mx-auto my-5">
                                     <div class="row align-items-center">
-                <div class="col-md-4">
+                <div class="d-none d-md-inline col-md-4">
                     <object type="image/svg+xml" data="img/vigilia.svg" class="w-100"></object>
                 </div>
                 <div class="p-3  col-md-4">
@@ -415,6 +425,9 @@
                 <div class="d-none d-md-inline col-md-4">
                     <object type="image/svg+xml" data="img/calendariovig.svg" class="w-100"></object>
                 </div>
+                <div class="col-md-4">
+            <object class="d-md-none w-100 bg-image-full" type="image/svg+xml" data="img/vigilia.svg"></object>
+        </div>
                 </div>
         </section>
         </div>
@@ -423,13 +436,13 @@
             <section class="container-fluid">
                 <div class="row">
                     <div class="mt-5 mb-3 col-12 mx-auto">
-                        <h3 class="my-5 text-center">RECORRIDO DE LA CHINITA</h3>
+                        <h4 class="my-5 text-center">RECORRIDO DE LA CHINITA</h4>
                         <div class="col-sm-12 col-md-10 col-lg-8 mx-auto my-5">
                             <div class="row align-items-center">
-                <div class="d-none d-sm-inline col-md-5">
+                <div class="d-none d-md-inline col-md-5">
             <object type="image/svg+xml" data="img/mapapereg.svg" class="w-100"></object>
         </div>
-        <div class="p-3  col-md-4">
+        <div class="p-3 col-md-4">
             <p>El 16 de julio, es el más importante de esta fiesta, porque la Virgen sale a recorrer las calles de La Tirana. En la mañana, con un ritual muy antiguo, se procede a bajar la imagen de la Virgen de La Tirana. La visten con un manto nuevo, le ponen su corona y la adornan con cintas de colores que cuelgan por todo su ruedo. En la tarde, la Virgen sale a recorrer el pueblo seguida de todos sus fieles. Una procesión que siguen sus devotos cantando con emoción. Finalizado el recorrido, la «Chinita», como le llaman a la Virgen, vuelve a la capilla y comienza el lento retorno de los feligreses y compañías de baile a sus lugares de origen.</p>
         </div>
         <div class="col-md-3">
