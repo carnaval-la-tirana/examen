@@ -98,9 +98,6 @@ Los Morenos llevan a cabo un baile de paso. Es un baile de pasito corto, que rea
 Los diablos o figurines son bailarines que acompañan a cualquier compañía. A veces se reúnen también de a cuatro o cinco y bailan juntos. Se disfrazan de diablo las personas que han cometido un grave pecado o recibido un favor extraordinario de la Virgen.
 
 
-**Callahuasis:**
-
-**Cambas:**
 
 ### LAS DANZAS DE LA TIRANA
 Una característica que diferencia a La Tirana de otras celebraciones es la gran variedad de compañías o hermandades, las cuales se dividen en *bailes de paso* y *bailes de salto*.
